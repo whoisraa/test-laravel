@@ -82,4 +82,9 @@ class CityController extends Controller
     {
         //
     }
+
+    public function city()
+    {
+        return view('city');
+    }
 }
